@@ -36,7 +36,7 @@ guessBtn.addEventListener('click', function(){
   } else {
     guessesLeft -= 1;
     if(guessesLeft === 0){
-      gameOver(false, `${winningNum} is the correct answer you lost. Tru Again!`);
+      gameOver(false, `${winningNum} is the correct answer you lost. Try Again!`);
     } else {
       setMessage(`you still have ${guessesLeft} trys left`);
     }
